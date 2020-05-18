@@ -1,0 +1,30 @@
+{
+    "name": "ipxe",
+    "displayName": "ipxe",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ipxe",
+            "aliases": ["ipxe", "ipxe"],
+            "extensions": [".ipxe"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ipxe",
+            "scopeName": "ipxe",
+            "path": "./syntaxes/ipxe.tmLanguage.json"
+        }],
+        "snippets": [{
+                "language": "ipxe",
+                "path": "./snippets/ipxe.snippets.json"
+            }]
+    }
+}
